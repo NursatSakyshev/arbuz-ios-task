@@ -43,6 +43,7 @@ struct ProductCardView: View {
                 .frame(width: 115)
         }
         .onTapGesture {
+            showDetailView(productId: product.id)
         }
         .font(.system(size: 13))
     }

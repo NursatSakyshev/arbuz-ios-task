@@ -19,6 +19,9 @@
 		C81347372BFCF2990056BBBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347362BFCF2990056BBBF /* Product.swift */; };
 		C81347392BFCF2A30056BBBF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347382BFCF2A30056BBBF /* Data.swift */; };
 		C813473B2BFCFA560056BBBF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813473A2BFCFA560056BBBF /* HeaderView.swift */; };
+		C813473D2BFD02670056BBBF /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813473C2BFD02670056BBBF /* ProductDetailView.swift */; };
+		C813473F2BFD02AA0056BBBF /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813473E2BFD02AA0056BBBF /* ProductDetailViewModel.swift */; };
+		C81347412BFD034C0056BBBF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347402BFD034C0056BBBF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		C81347362BFCF2990056BBBF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C81347382BFCF2A30056BBBF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C813473A2BFCFA560056BBBF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C813473C2BFD02670056BBBF /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		C813473E2BFD02AA0056BBBF /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		C81347402BFD034C0056BBBF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 				C81347222BFCEE260056BBBF /* LaunchScreen.storyboard */,
 				C81347252BFCEE260056BBBF /* Info.plist */,
 				C81347302BFCF0680056BBBF /* Resources.swift */,
+				C81347402BFD034C0056BBBF /* Extensions.swift */,
 			);
 			path = "arbuz-ios-task";
 			sourceTree = "<group>";
@@ -87,6 +94,7 @@
 				C81347322BFCF0AF0056BBBF /* HomeView.swift */,
 				C81347342BFCF2710056BBBF /* ProductCardView.swift */,
 				C813473A2BFCFA560056BBBF /* HeaderView.swift */,
+				C813473C2BFD02670056BBBF /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +113,7 @@
 			children = (
 				C81347362BFCF2990056BBBF /* Product.swift */,
 				C81347382BFCF2A30056BBBF /* Data.swift */,
+				C813473E2BFD02AA0056BBBF /* ProductDetailViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,14 +190,17 @@
 			files = (
 				C813472F2BFCF02D0056BBBF /* TabBarViewController.swift in Sources */,
 				C81347372BFCF2990056BBBF /* Product.swift in Sources */,
+				C813473D2BFD02670056BBBF /* ProductDetailView.swift in Sources */,
 				C813471C2BFCEE250056BBBF /* CartViewController.swift in Sources */,
 				C81347182BFCEE250056BBBF /* AppDelegate.swift in Sources */,
 				C81347332BFCF0AF0056BBBF /* HomeView.swift in Sources */,
 				C813473B2BFCFA560056BBBF /* HeaderView.swift in Sources */,
 				C81347312BFCF0680056BBBF /* Resources.swift in Sources */,
+				C81347412BFD034C0056BBBF /* Extensions.swift in Sources */,
 				C813471A2BFCEE250056BBBF /* SceneDelegate.swift in Sources */,
 				C81347392BFCF2A30056BBBF /* Data.swift in Sources */,
 				C81347352BFCF2710056BBBF /* ProductCardView.swift in Sources */,
+				C813473F2BFD02AA0056BBBF /* ProductDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

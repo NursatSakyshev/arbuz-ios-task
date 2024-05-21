@@ -21,6 +21,7 @@ struct HeaderView: View {
                 .offset(y: -geomety.frame(in: .global).minY * 0.8)
         }
         .onTapGesture {
+            showDetailView(productId: product.id)
         }
     }
 }
