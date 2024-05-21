@@ -18,6 +18,7 @@
 		C81347352BFCF2710056BBBF /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347342BFCF2710056BBBF /* ProductCardView.swift */; };
 		C81347372BFCF2990056BBBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347362BFCF2990056BBBF /* Product.swift */; };
 		C81347392BFCF2A30056BBBF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347382BFCF2A30056BBBF /* Data.swift */; };
+		C813473B2BFCFA560056BBBF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813473A2BFCFA560056BBBF /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C81347342BFCF2710056BBBF /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		C81347362BFCF2990056BBBF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C81347382BFCF2A30056BBBF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C813473A2BFCFA560056BBBF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				C81347322BFCF0AF0056BBBF /* HomeView.swift */,
 				C81347342BFCF2710056BBBF /* ProductCardView.swift */,
+				C813473A2BFCFA560056BBBF /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				C813471C2BFCEE250056BBBF /* CartViewController.swift in Sources */,
 				C81347182BFCEE250056BBBF /* AppDelegate.swift in Sources */,
 				C81347332BFCF0AF0056BBBF /* HomeView.swift in Sources */,
+				C813473B2BFCFA560056BBBF /* HeaderView.swift in Sources */,
 				C81347312BFCF0680056BBBF /* Resources.swift in Sources */,
 				C813471A2BFCEE250056BBBF /* SceneDelegate.swift in Sources */,
 				C81347392BFCF2A30056BBBF /* Data.swift in Sources */,
