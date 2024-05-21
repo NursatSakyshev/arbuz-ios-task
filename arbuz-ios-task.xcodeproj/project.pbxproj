@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		C81347182BFCEE250056BBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347172BFCEE250056BBBF /* AppDelegate.swift */; };
 		C813471A2BFCEE250056BBBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347192BFCEE250056BBBF /* SceneDelegate.swift */; };
-		C813471C2BFCEE250056BBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813471B2BFCEE250056BBBF /* ViewController.swift */; };
+		C813471C2BFCEE250056BBBF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813471B2BFCEE250056BBBF /* CartViewController.swift */; };
 		C81347212BFCEE260056BBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81347202BFCEE260056BBBF /* Assets.xcassets */; };
 		C81347242BFCEE260056BBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81347222BFCEE260056BBBF /* LaunchScreen.storyboard */; };
+		C813472F2BFCF02D0056BBBF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C813472E2BFCF02D0056BBBF /* TabBarViewController.swift */; };
+		C81347312BFCF0680056BBBF /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347302BFCF0680056BBBF /* Resources.swift */; };
+		C81347332BFCF0AF0056BBBF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81347322BFCF0AF0056BBBF /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C81347142BFCEE250056BBBF /* arbuz-ios-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arbuz-ios-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81347172BFCEE250056BBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81347192BFCEE250056BBBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C813471B2BFCEE250056BBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C813471B2BFCEE250056BBBF /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		C81347202BFCEE260056BBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81347232BFCEE260056BBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81347252BFCEE260056BBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C813472E2BFCF02D0056BBBF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C81347302BFCF0680056BBBF /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		C81347322BFCF0AF0056BBBF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,10 @@
 			children = (
 				C81347172BFCEE250056BBBF /* AppDelegate.swift */,
 				C81347192BFCEE250056BBBF /* SceneDelegate.swift */,
-				C813471B2BFCEE250056BBBF /* ViewController.swift */,
 				C81347202BFCEE260056BBBF /* Assets.xcassets */,
 				C81347222BFCEE260056BBBF /* LaunchScreen.storyboard */,
 				C81347252BFCEE260056BBBF /* Info.plist */,
+				C81347302BFCF0680056BBBF /* Resources.swift */,
 			);
 			path = "arbuz-ios-task";
 			sourceTree = "<group>";
@@ -70,6 +76,7 @@
 		C813472B2BFCEEC90056BBBF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C81347322BFCF0AF0056BBBF /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 		C813472C2BFCEED50056BBBF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C813471B2BFCEE250056BBBF /* CartViewController.swift */,
+				C813472E2BFCF02D0056BBBF /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,8 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C813471C2BFCEE250056BBBF /* ViewController.swift in Sources */,
+				C813472F2BFCF02D0056BBBF /* TabBarViewController.swift in Sources */,
+				C813471C2BFCEE250056BBBF /* CartViewController.swift in Sources */,
 				C81347182BFCEE250056BBBF /* AppDelegate.swift in Sources */,
+				C81347332BFCF0AF0056BBBF /* HomeView.swift in Sources */,
+				C81347312BFCF0680056BBBF /* Resources.swift in Sources */,
 				C813471A2BFCEE250056BBBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
